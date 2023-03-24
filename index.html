@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  Tailwind CSS stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!--  Swiper CSS stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>Clipart</title>
+  </head>
+  <body>
+    <header class="w-full">
+      <div class="flex justify-between items-center header">
+        <div class="socials">
+          <a href="#" class="bg-gray-200 rounded-lg">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="bg-gray-200 rounded-lg">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="bg-gray-200 rounded-lg">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="text-center">
+          <h1 class="font-semibold text-primary text-lg">Company Logo</h1>
+        </div>
+        <div class="flex items-center">
+          <form class="flex">
+            <button type="submit" class="bg-white rounded-lg cl ms">
+              <i class="fa fa-search"></i>
+            </button>
+            <input
+              type="text"
+              class="py-3 rounded-l border-gray-400 focus:outline-none"
+              placeholder="ძიება..."
+            />
+          </form>
+          <div class="open-menu">
+            <i class="fa fa-bars"> </i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="cats">
+      <nav class="bg-gray-200 w-full">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between bg-gray-300 py lg:py-0 relative"
+        >
+          <a href="#" class="cat-item lg:mr-8">პოლიტიკა</a>
+          <a href="#" class="cat-item lg:mr-8">საზოგადოება</a>
+          <a href="#" class="cat-item lg:mr-8">Covid-19</a>
+          <a href="#" class="cat-item lg:mr-8">სამართალი</a>
+          <a href="#" class="cat-item lg:mr-8">ხელოვნება</a>
+          <a href="#" class="cat-item lg:mr-8">კრიმინალი</a>
+          <a href="#" class="cat-item lg:mr-8">შემთხვევა</a>
+          <a href="#" class="cat-item lg:mr-8">მსოფლიო</a>
+          <a href="#" class="cat-item lg:mr-8">სპორტი</a>
+          <a href="#" class="cat-item lg:mr-8">რელიგია</a>
+          <a href="#" class="cat-item lg:mr-8" style="margin-right: 0"
+            >ხელოვნება</a
+          >
+          <a
+            class="show-categories lg:mr-8"
+            type="button"
+            style="color: #ff3b30"
+          >
+            მეტი
+            <i class="fa fa-angle-down"></i>
+          </a>
+        </div>
+
+        <div class="hidden-categories absolute right-0 z-50">
+          <a href="#">სპორტი</a>
+          <a href="#">რელიგია</a>
+          <a href="#">ხელოვნება</a>
+        </div>
+      </nav>
+    </div>
+    <div class="content sm:bg-gray-100">
+      <div class="slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/slider/slider 1.png" alt="news" />
+              <div class="swiper-insider py-4">
+                <div class="text-container rounded-l">
+                  <div class="flex small items-center">
+                    <h5 class="colored font-semibold px small">პოლიტიკა</h5>
+                    <span class="cl" style="font-size: 13px">
+                      • 18.04.2022</span
+                    >
+                  </div>
+                  <p>
+                    ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების
+                    სამელიორაციო ინფრასტრუქტურული პროექტები დაიწყება
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider/slider2.png" alt="news" />
+              <div class="text-container">
+                <div>
+                  <h5 class="colored">პოლიტიკა</h5>
+                  <span class="cl"> • 18.04.2022</span>
+                </div>
+                <p>
+                  ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციო
+                  ინფრასტრუქტურული პროექტები დაიწყება
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider/slider 3.png" alt="news" />
+
+              <div class="text-container rounded-l">
+                <div>
+                  <h5 class="colored">პოლიტიკა</h5>
+                  <span class="cl"> • 18.04.2022</span>
+                </div>
+                <p>
+                  ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციო
+                  ინფრასტრუქტურული პროექტები დაიწყება
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider/slider 4.png" alt="news" />
+
+              <div class="text-container rounded-l">
+                <div>
+                  <h5 class="colored">პოლიტიკა</h5>
+                  <span class="cl"> • 18.04.2022</span>
+                </div>
+                <p>
+                  ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციო
+                  ინფრასტრუქტურული პროექტები დაიწყება
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controller flex w-sw bg-light">
+          <div>
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+
+            <div class="swiper-pagination"></div>
+            <button class="next"><i class="fa fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="grid__container">
+          <div class="grid__wrapper">
+            <div class="grid__card rounded-m rounded-m bg-white">
+              <img src="./images/sectionImg/section5.png" alt="img" />
+              <div class="py-2">
+                <h6 class="small cl" style="margin-bottom: 8px">
+                  პოლიტიკა • 18.04.2023
+                </h6>
+                <div>
+                  <h6 class="small font-semibold">
+                    კიმ ჩენ ინი აშშ-სა და სამხრეთ კორეას ბირთვული იარაღით
+                    ემუქრება
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="grid__card rounded-m rounded-m bg-white">
+              <img src="./images/sectionImg/section4.png" alt="img" />
+              <div class="py-2">
+                <h6 class="small cl" style="margin-bottom: 8px">
+                  პოლიტიკა • 18.04.2023
+                </h6>
+                <div>
+                  <h6 class="small font-semibold">
+                    საქართველოს მორაგბეთა ნაკრები „რაგბი ევროპის“ გამარჯვებულია
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__wrapper__center">
+            <div class="grid__card__center bg-white">
+              <img src="./images/sectionImg/section2.png" alt="img" />
+              <div>
+                <div style="padding: 32px 16px; cursor: pointer">
+                  <h6 class="cl" style="margin-bottom: 8px">
+                    პოლიტიკა • 18.04.2023
+                  </h6>
+                  <div>
+                    <h6 class="font-semibold">
+                      ჩრდილოეთ კორეამ აშშ-სა და სამხრეთ კორეის წინააღმდეგ
+                      იმიტირებული ბირთვული კონტრშეტევა დაიწყო
+                    </h6>
+                  </div>
+                </div>
+                <hr />
+                <div class="flex justify-between px-2">
+                  <h5 class="colored font-semibold small">ახალი ამბები</h5>
+                  <span class="cl small"> 18.04.2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__wrapper">
+            <div class="grid__card rounded-m rounded-m bg-white">
+              <img src="./images/sectionImg/section1.png" alt="img" />
+              <div class="py-2">
+                <h6 class="small cl" style="margin-bottom: 8px">
+                  პოლიტიკა • 18.04.2023
+                </h6>
+                <div>
+                  <h6 class="small font-semibold">
+                    დღეს კიბოს სკრინინგის მხარდასაჭერი კონცერტი გაიმართება
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="grid__card rounded-m rounded-m bg-white">
+              <img src="./images/sectionImg/section3.png" alt="img" />
+              <div class="py-2">
+                <h6 class="small cl" style="margin-bottom: 8px">
+                  პოლიტიკა • 18.04.2023
+                </h6>
+                <div>
+                  <h6 class="small font-semibold">
+                    უკრაინას დიდი კონტრშეტევისთვის მხოლოდ ერთი მცდელობა ექნება
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--  Swiper JS library -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
